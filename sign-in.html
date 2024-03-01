@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="img/showcase-logo.jpeg" rel="icon">
+<title>Sign In - ShowCase</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link rel="stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		<div class="container-fluid">
+	
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="index.html">
+						<img src="img/showcase-logo.jpeg" alt="logo" width="100" height="100">
+					</a>
+
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbar">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Descubrir</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Trabajos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Para Ti</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Mis Archivos</a>
+							</li>
+						</ul>
+
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item active">
+								<a class="button" href="sign-in.html"><button type="button" class="btn btn-dark" href="sign-in.html">Iniciar Sesión</button></a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+			
+		</div>
+		
+	</header>
+	
+	<section id="sign-in">
+		<div class="container-fluid">
+			<div class="row">
+				<article class="col-lg-3 col-sm-4 col-4 columna-izquierda">
+
+				</article>
+
+				<article class="col-lg-3 col-sm-4 col-4 columna-enmedio">
+				  <h2>Sign Up</h2>
+					<form id="signin-form" action="procesar-formulario.php" method="post" >
+						<div class="form-group">
+							<label for="email">Nombre de Usuario</label>
+							<input type="email" id="email" name="email" required>
+						</div>
+						
+						<div class="form-group">
+							<label for="password">Contraseña</label>
+							<input type="password" id="password" name="password" required>
+						</div>
+						
+						<button type="submit">Iniciar Sesión</button>
+					</form>
+				</article>
+
+				<article class="col-lg-3 col-sm-4 col-4 columna-derecha">
+					
+			  </article>
+			</div>
+		</div>
+	</section>
+	
+</body>
+</html>
